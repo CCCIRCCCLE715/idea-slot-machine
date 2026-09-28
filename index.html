@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#10071e"><title>灵感老虎机</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main class="arcade">
+<div class="marquee" aria-hidden="true"><div class="bulbs top"></div><div class="bulbs right"></div><div class="bulbs bottom"></div><div class="bulbs left"></div></div>
+<section class="machine" aria-label="灵感老虎机">
+<div class="cabinet-top" aria-hidden="true"><span>✦</span><i></i><span class="diamonds">◆ ◆ ◆</span><i></i><span>✦</span></div>
+<div class="machine-body">
+<div class="game-area">
+<div class="column-heads"><span><b>01</b> 网络热梗</span><span><b>02</b> 创作形式</span></div>
+<div class="dual-reels">
+<div class="screen-frame"><div class="screen">
+<div class="selection-line"></div><span class="pointer left">▶</span>
+<div class="reel" id="memeReel" aria-label="热梗滚轮"><div class="strip"></div></div><div class="scanlines"></div>
+</div></div>
+<div class="screen-frame"><div class="screen">
+<div class="selection-line"></div><span class="pointer right">◀</span>
+<div class="reel" id="formatReel" aria-label="创作形式滚轮"><div class="strip"></div></div><div class="scanlines"></div>
+</div></div>
+</div>
+<div class="screen-bottom"><span><i class="status-light"></i><span id="status" role="status" aria-live="polite">准备就绪</span></span><span class="decorative-stars" aria-hidden="true">✦ &nbsp; ✦ &nbsp; ✦</span></div>
+</div>
+<div class="control"><div class="control-stars" aria-hidden="true">◆ <span>◆</span> ◆</div><div class="button-ring"><button id="spin" aria-label="开始抽取"><strong>开始</strong><small>START</small></button></div><div class="key-hint"><kbd>空格</kbd> 开始 / 暂停</div><div class="speaker" aria-hidden="true"></div></div>
+</div>
+<div class="cabinet-bottom"><span class="mini-lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span class="bottom-line" aria-hidden="true"></span><button id="sound" aria-pressed="false" aria-label="开启音效">♪ 音效关</button></div>
+</section>
+</main>
+<script src="app.js"></script>
+</body></html>
